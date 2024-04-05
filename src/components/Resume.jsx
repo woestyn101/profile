@@ -1,6 +1,8 @@
+
+
 const Resume = () => {
     return (
-        <div className="home">
+        <div className="contactheader">
      <h2>Resume Page</h2>
     </div>
 

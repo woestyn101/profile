@@ -1,6 +1,8 @@
+
+
 const Portfolio = () => {
     return (
-        <div className="home">
+        <div className="portfolioheader">
      <h2>Portfolio Page</h2>
     </div>
 
