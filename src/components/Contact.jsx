@@ -1,10 +1,13 @@
+import Form from "./form/Form";
 
 const Contact = () => {
-    return (
-        <div className="contactheader">
-     <h2>Contact Page</h2>
-    </div>
 
+  
+  
+    return (
+     
+      <Form></Form>
+     
       );
 }
  
