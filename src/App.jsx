@@ -4,6 +4,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Header from './components/Header';
+import FooterComp from './components/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NotFound from './components/Notfound';
 
@@ -25,11 +26,16 @@ function App() {
         </Route>
         <Route exact path="/resume">
           <Resume></Resume>
+          <br/>
+          <br/>
         </Route>
         <Contact exact path="/contact">
           <Home></Home>
         </Contact>
       </Switch>
+      <br/>
+      <br/>
+      <FooterComp></FooterComp>
       </div>
 
     </Router>

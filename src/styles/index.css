@@ -37,143 +37,50 @@ a, a:visited {
   margin-right: 20px;
 }
 
+.mypersonal {
+  display: flex;  
+  text-align: center;
+}
 
-.itemside {
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.logo-github {
+  margin-right: 10px;
+}
+
+.logo-linkedIn {
+  margin-left: 10px;
+}
+
+
+.personal1 {
+  margin-top: 10px;
+  flex:1;
+  font-size: 2rem;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: right;
-  border-right: 10px solid #0d2b47;
-  margin-right: 20px;
-  color: #0182e7;
-  padding:10px;
+  margin-right: 10px;
+  border-right: 4px solid #0d2b47;
+  padding-right: 10px;
+  font-size: large;
+font-weight: bold;
 }
 
-.container {
-  margin-top: 20px;
-  height: 100vh;
-  display:grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 0.5rem;
-
-}
-
-.resume-content {
-  font-size: 1.3rem;
-  line-height: 1.7rem;
-}
-
-.side-personal {
-  grid-row: 1 / 2;
-  grid-column: 1/  2;
-}
-
-.side-contact {
-  grid-row: 2 / 3;
-  grid-column: 1/  2;
-}
-
-.side-primary-education {
-  grid-row: 3/ 4;
-  grid-column: 1/  2;
-}
-
-.side-tertiary-education {
-  grid-row: 4 / 5;
-  grid-column: 1/  2;
-}
-.side-it-knowledge {
-  grid-row: 5 / 6;
-  grid-column: 1/  2;
-}
-
-.side-work {
-  grid-row: 6 / 7;
-  grid-column: 1/  2;
-}
-
-.side-interests {
-  grid-row: 7 / 8;
-  grid-column: 1/  2;
-}
-
-.side-languages {
-  grid-row: 8/ 9;
-  grid-column: 1/  2;
+.sub-footer {
+  text-align: center;
 }
 
 .personal-content {
-  grid-row: 1/ 2;
-  grid-column: 2/  3;
-  font-size: 1.3rem;
-  line-height: 1.7rem;
-}
-
-.contact-info{
-  grid-row: 2/ 3;
-  grid-column: 2/  3;
- 
-}
-
-.primary-ed-content {
-  grid-row: 3/ 4;
-  grid-column: 2/  3;
-}
-
-.teriary-ed-content {
-  grid-row: 4/ 5;
-  grid-column: 2/  3;
-}
-
-.tertiary {
-  margin-bottom: 10px;
-}
-
-.it-knowledge {
-  grid-row: 5/ 6;
-  grid-column: 2/  3;
-}
-
-ul li {
-  list-style: disc;
-}
-
-.it-content {
-  margin-left: 5px;
-}
-
-.work-content {
-  grid-row: 6/ 7;
-  grid-column: 2/  3;
-}
-
-.work-content p {
-  margin-bottom: 20px;
-}
-
-.interest-list {
-  margin-left: 15px;
-}
-
-.interests-content {
-  grid-row: 7/ 8;
-  grid-column: 2/  3;
-}
-
-
-
-.languages-content {
-  grid-row: 8/ 9;
-  grid-column: 2/  3;
-  margin-left: 15px;
+  flex:2;
+  text-align: left;
+  margin-top: 10px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   
+
 }
 
 
-.language-list li {
-  list-style-type: none;
-}
+
+
 
 /* create new blog form */
 .create {
@@ -198,6 +105,7 @@ ul li {
   background-color: #004f98;
   padding: 20px;
   border-radius: 25px;
+  
 
 }
 .create label {
