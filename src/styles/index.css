@@ -85,7 +85,7 @@ font-weight: bold;
 .about-me {
   margin-top: 10px;
   text-align: left;
-  background-color:#0d2b47 ;
+  background-color:#004f98 ;
   width:60%;
   color: white;
   padding:10px;
@@ -95,6 +95,7 @@ font-weight: bold;
 
 .about-image-content{
   display: flex;
+ 
 }
 
 .personal-content {
@@ -168,6 +169,12 @@ font-weight: bold;
   h1 {
       font-size: 3rem;
       margin-left:150px ;
+  }
+
+  .about-image-content{
+    display: flex;
+    flex-wrap: wrap;
+   
   }
 }
 
