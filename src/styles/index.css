@@ -185,11 +185,13 @@ ul li {
   font-family: "Open Sans", sans-serif; 
   color:white;
  
+ 
 }
 
 .form-content {
   background-color: #0082e6;
   padding: 20px;
+  border-radius: 25px;
 
 }
 .create label {
