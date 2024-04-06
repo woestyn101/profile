@@ -1,4 +1,3 @@
-
 import weatherApp from "../assets/weather_app.png"
 import theblogApp from "../assets/the_blog.png"
 import githubSmall from "../assets/Github_logo_25.png"
@@ -56,9 +55,9 @@ const Portfolio = () => {
                          
       {projects.map((image, i) => (  
         <div className="thewrapper" key={i}>        
-        <h3 className="name-repo"><span className="project-title"><a href={image.appUrl}>{image.name}</a></span> </h3>      
+        <h3 className="name-repo"><span className="project-title"><a href={image.appUrl} target="_blank">{image.name}</a></span> </h3>      
         <img className="project-img" key={image.name} src={image.imgAsset} alt={image.name} />
-        <h3><a className="gitrepo" href={image.repoUrl}>Github Repo<img className="gitSmall" src={githubSmall} alt="Github Repository"/></a></h3>
+        <h3><a className="gitrepo" href={image.repoUrl}target="_blank">Github Repo<img className="gitSmall" src={githubSmall} alt="Github Repository"/></a></h3>
             
              
                </div>  
