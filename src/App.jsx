@@ -11,7 +11,7 @@ import NotFound from './components/Notfound';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <Router>
@@ -29,9 +29,12 @@ function App() {
           <br/>
           <br/>
         </Route>
-        <Contact exact path="/contact">
-          <Home></Home>
-        </Contact>
+        <Route exact path="/contact">
+          <Contact></Contact>
+        </Route>
+        <Route path="*">
+              <NotFound />
+            </Route>
       </Switch>
       <br/>
       <br/>
