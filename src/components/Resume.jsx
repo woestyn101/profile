@@ -1,8 +1,11 @@
-
+import myDoc from '../../public/resume.pdf'
 
 const Resume = () => {
     return (
         <div className="resume-content">
+              <a href="../../public/resume.pdf" download="Marius Resume" target='_blank'>
+<button type="button" className="resume-button">Download Resume</button>
+</a>
           <div className="mypersonal">
               <div className="personal1">Personal</div>
               <div className="personal-content">
